@@ -1,3 +1,10 @@
+INSTRUCTIONS/NOTES:
+-It takes a while to load at the beginning
+-Minesweeper, 15 x 15 map, 25 bombs
+-Left click to reveal, right click to flag/unflag
+
+---
+
 Things I referenced
 -The Three.js tutorials
 -lobster by God Appeasers [CC-BY] via Poly Pizza (https://poly.pizza/m/25ijpkQ3YAb)
@@ -36,9 +43,3 @@ Notes:
 -I used ChatGPT to do things like math for circles and figuring out errors with the fbx loader and animations
 -https://discourse.threejs.org/t/shadows-not-working/30269
 -Pufferfish by Poly by Google [CC-BY] via Poly Pizza
-
-
-Notes:
--15 x 15 map, 25 bombs
--Left click to reveal, right click to flag/unflag
--It takes a while to load at the beginning

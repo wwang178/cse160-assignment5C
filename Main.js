@@ -43,6 +43,9 @@ function main() {
 }
 
 function click(event) {
+    if(g_gameOver)
+        return;
+
     // detect drag
     let dragThreshold = 10;
     if (Math.abs(g_lastMouseX - event.clientX) > dragThreshold)
