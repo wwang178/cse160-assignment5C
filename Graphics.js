@@ -35,22 +35,22 @@ function main() {
     // lights
     {
         // light
-        const color = 0xFFFFFF;
+        const color = new THREE.Color("rgb(220, 220, 250)");
         const light = new THREE.DirectionalLight(color, 3);
         light.position.set(0, 5, 5);
         light.castShadow = true;
         g_scene.add(light);
 
-        // // light
-        // const redColor = 0xFF0000;
-        // const light2 = new THREE.HemisphereLight(redColor, 1);
-        // light2.position.set(0, -10, 0);
-        // g_scene.add(light2);
+        // light
+        const darkBlue = 0x00008B;
+        const light2 = new THREE.HemisphereLight(darkBlue, 1);
+        light2.position.set(0, 3, 0);
+        g_scene.add(light2);
 
-        // // ambient light
-        // const blackColor = 0x000000;
-        // const light3 = new THREE.AmbientLight(blackColor, 0.5);
-        // g_scene.add(light3);
+        // ambient light
+        const ambientColor = 0x000080;
+        const light3 = new THREE.AmbientLight(ambientColor, 0.2);
+        g_scene.add(light3);
     }
 
     // skybox
